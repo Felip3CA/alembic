@@ -25,4 +25,4 @@
 ## Depois, encontre a linha:
 ### target_metadata = None
 ## e altera para:
-### target_metadata = Base_metadata
+### target_metadata = Base.metadata

@@ -1,4 +1,5 @@
 #Models é o arquivo onde fica as classes (tabelas)
+#instalar o alembic
 
 from sqlalchemy import create_engine, Column, Integer, String, ForeignKey
 from sqlalchemy.orm import declarative_base, sessionmaker, relationship
